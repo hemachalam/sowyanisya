@@ -1,0 +1,3 @@
+echo "this is an experiment for RESET COMMAND"
+echo "which resets added or commited file from staging and workspace area"
+
