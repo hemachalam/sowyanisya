@@ -1,0 +1,11 @@
+#!/bin/bash
+#this program wants your details
+
+echo "Enter your name:"
+read name 
+
+echo "Enter your mobile no:"
+read mobile_no
+
+echo "This is your name : $name"
+echo "What a mobile no : $mobile_no"
