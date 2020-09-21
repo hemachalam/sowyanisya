@@ -1,6 +1,6 @@
 #!/bin/bash
 #this pgm is for addition
-
+#this pgm also does subtraction
 echo "Enter a value:"
 read v1
 
@@ -12,6 +12,9 @@ read v3
 
 value=`expr $v1 + $v2 + $v3`
 echo "The Total sum is: $value"
+
+value=`expr $v1 - $v2 - $v3`
+echo "The value after subtraction is: $value"
 echo "This code executed successfully!!!!!!!!!!!!!!!!Hurrrrraaaaaaaaa"
 echo "I am trying git stash which is only applicable to modified files not new files"
 echo "We can use stash only for 2 times: git stash apply stash@{0} or git stash apply stash@{1}"
